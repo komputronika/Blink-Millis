@@ -68,6 +68,16 @@ class Blinker {
         }
 
         //---------------------------------
+        // Selesai: Mendeteksi apakah perulangan sudah selesai
+        //---------------------------------
+        bool Selesai() {
+            // Kalau jumlahUlang sudah 0, berarti sudah selesai
+            // Kalau jumlahUlang -1, maka fungsi ini selalu false
+            // kecuali ada pemanggilan .Stop()
+            return (jumlahUlang==0)
+        }
+
+        //---------------------------------
         // Stop: Stop LED blink
         //---------------------------------
         void Stop() {
