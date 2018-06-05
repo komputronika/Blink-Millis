@@ -1,5 +1,5 @@
 // Include header
-#include "BlinkMillis.h";
+#include "BlinkMillis.h"
 
 // Buat 2 buah LED blink pada pin 12 dan 13
 Blinker led1(12, 100,  400, 10); // (pin, on, off, ulang)
