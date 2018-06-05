@@ -7,7 +7,7 @@ Membuat banyak LED blinking menggunakan fungsi millis(), tanpa fungsi delay. LED
 - Jumlah perulangan dapat diatur
 - Dapat membuat blink infinity
 
-```arduino
+```cpp
 // Include header
 #include "BlinkMillis.h";
 
